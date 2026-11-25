@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: If this benchmark is useful in your work, please cite the software and the relevant research.
+title: Slice Admission Bench
+type: software
+authors:
+  - name: Slice Admission Bench contributors
+version: 0.1.0
+license: MIT
+repository-code: https://github.com/henrivalle/slice-admission-bench
+references:
+  - type: thesis
+    title: Controle de admissão para Network Slicing considerando recursos de comunicação e computação
+    authors:
+      - family-names: Valle de Lima
+        given-names: Henrique
+    year: 2023
+    institution:
+      name: Universidade Federal de Goiás
+    url: https://repositorio.bc.ufg.br/tede/bitstreams/bfe7fdb0-59cc-4e25-be60-5b24beab9db4/download

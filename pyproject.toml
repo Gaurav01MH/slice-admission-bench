@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slice-admission-bench"
+version = "0.1.0"
+description = "A reproducible bandwidth and compute admission-control benchmark"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[project.scripts]
+slice-admission-bench = "slice_admission.__main__:main"
+
+[tool.setuptools]
+packages = ["slice_admission"]
